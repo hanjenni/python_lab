@@ -16,5 +16,5 @@ human_years = int(input('input a dogs age into human years:'))
 if human_years < 3:
     dog_years = human_years * 10
 else:
-    dog_years = human_years * 7
+    dog_years = 20 + (human_years- 2) * 7
 print(f'the dogs age in dog years is {dog_years}')
